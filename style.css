@@ -1,0 +1,80 @@
+.box {
+  position: relative;
+  height: 900px;
+}
+.menu-list {
+  background-color: #0c0d0f;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.27);
+  border-radius: 4px;
+  padding: 10px 0;
+  width: 98px;
+  margin-right: 7px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.menu-list li {
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #a2a2a2;
+  padding: 0 10px;
+}
+
+.menu-list li .left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list li .icon {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.menu-list li .more {
+  width: 5px;
+  height: 8px;
+}
+
+.menu-list li:last-child {
+  margin-bottom: 0;
+}
+
+.menu-list li.active {
+  background-color: #171924;
+}
+
+.menu-list li:hover {
+  background-color: #171924;
+}
+.second {
+  
+}
+
+.second li:hover {
+  background-color: #171924;
+}
+
+.first {
+  position: absolute;
+  left: 5px;
+}
+
+.second {
+  position: absolute;
+  left: 113px;
+}
+.input{
+  height: 20px;
+  width: 100px;
+  input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px dashed gray;
+  }
+}
